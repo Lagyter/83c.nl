@@ -1,17 +1,22 @@
+<!--- MathJax -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'] ],
-      processEscapes: true
-    }
-  });
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\[]', '\\]']]
+  }
+};
 </script>
 
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
 Trans rights are human rights! niko83c
+
+Testing preview $1 + 2 = 4$
+
+\[
+  \{\pi \cdot e, \pi + e\} \cap (\mathbb R \setminus \mathbb Q) \ne \emptyset  
+\]
 
 
 $$
