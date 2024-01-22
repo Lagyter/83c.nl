@@ -2,7 +2,7 @@
 MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']]
-    displayMath: [['$$', '$$'], ['\\[','\\]']]
+    displayMath: [['$$', '$$'], ['\[','\]']]
   },
   svg: {
     fontCache: 'global'
@@ -18,11 +18,11 @@ MathJax = {
 
 Trans rights are human rights! niko83c
 
-This is when I use \\$ in in-line text: $f$ is injective.
+This is when I use \$ in in-line text: $f$ is injective.
 
-This is when I use \\$\\$ in in-line text: $$f$$ is injective.
+This is when I use \$\$ in in-line text: $$f$$ is injective.
 
-This is when I use \\[ in in-line text: \\[f\\] is injective.
+This is when I use \\[ in in-line text: \[f\] is injective.
 
 $f$
 
