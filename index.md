@@ -3,12 +3,6 @@
     tex: {
       inlineMath: [['$', '$']],
       displayMath: [['$$', '$$'], ['\[', '\]']]
-    },
-    startup: {
-      ready: () => {
-        MathJax.startup.defaultReady();
-        document.getElementById('MathJax-script').remove();
-      }
     }
   };
 </script>
@@ -32,6 +26,10 @@ Testing preview $1 + 2 = 4$
 $$
 \{1,2,3\}
 $$
+
+This is definitely $$\{1,2,3\}$$ some inline text?
+
+But how do I have actual inline $\{\text{in},\text{line}\}$ text??
 
 $\{3,5,8\}$
 
