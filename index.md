@@ -1,16 +1,21 @@
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'] ],
-      displayMath: [ ['\\[','\\]'] ],
-      processEscapes: true
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    startup: {
+      ready: () => {
+        MathJax.startup.defaultReady();
+        document.getElementById('MathJax-script').remove();
+      }
     }
-  });
+  };
 </script>
-
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
+
 
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
