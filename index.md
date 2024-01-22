@@ -1,10 +1,13 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\[', '\\]']]
-  }
-};
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['\\[','\\]'] ],
+      processEscapes: true
+    }
+  });
 </script>
+
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
@@ -42,6 +45,3 @@ $$
 This is some in-line math: because it is true that $1 + 1$ indeed does equal $2$.
 
 For let $S \colon \mathbb N \to \mathbb N$ be the successor function, then $1 + 1 = 1 + S(0) = S(1 + 0) = S(1) = 2$.
-$$
-\tag*{$\square$}
-$$
