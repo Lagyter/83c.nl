@@ -23,9 +23,9 @@ Trans rights are human rights! niko83c
 
 Testing preview $1 + 2 = 4$
 
-\[
+\\[
   \{\pi \cdot e, \pi + e\} \cap (\mathbb R \setminus \mathbb Q) \ne \emptyset  
-\]
+\\]
 
 
 $$
