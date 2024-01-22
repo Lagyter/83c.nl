@@ -6,7 +6,6 @@
     },
     startup: {
       ready: () => {
-        console.log('MathJax is ready');
         MathJax.startup.defaultReady();
       }
     },
