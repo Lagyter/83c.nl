@@ -1,8 +1,8 @@
 <script>
 MathJax = {
   tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-    displayMath: [['$$', '$$'], ['\[','\]']]
+    inlineMath: [['$', '$']]
+    displayMath: [['\[','\]'], ['\\(', '\\)']]
   },
   svg: {
     fontCache: 'global'
@@ -18,43 +18,22 @@ MathJax = {
 
 Trans rights are human rights! niko83c
 
-This is when I use \$ in in-line text: $f$ is injective.
+This is when I use &#36 in in-line text: $f$ is injective.
 
-This is when I use \$\$ in in-line text: $$f$$ is injective.
+This is when I use &#36&#36 in in-line text: $$f$$ is injective.
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
 This is when I use \\[ in in-line text: \[f\] is injective.
 
-$f$
+$a$
 
-$$f$$
+$$b$$
 
-\[f\]
-
-The following is in plain-text square brackets: [What is life?] Why does [life](laifu.html) exist? Why does \[existence](existence.html) live?
-
-\[f\]
-
-
-### Some things
-$$
-\pi_1(X_1 \times X_2, (x_1,x_2)) \cong \pi_1(X_1,x_1) \times \pi_1(X_2,x_2)
-$$
-
-$$
-a^2 + b^2 = c^2
-$$
-
-$$
-\begin{align*}
-3x - 2y &= 5 \\
-2x + 3y &= 10
-\end{align*}
-$$
-
-$$
-\pi = \frac1{\frac1\pi}
-$$
-
-This is some in-line math: because it is true that $1 + 1$ indeed does equal $2$.
-
-For let $S \colon \mathbb N \to \mathbb N$ be the successor function, then $1 + 1 = 1 + S(0) = S(1 + 0) = S(1) = 2$.
+\[c\]
