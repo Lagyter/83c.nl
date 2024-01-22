@@ -1,19 +1,16 @@
 <script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$'], ['\[', '\]']]
-    },
-    startup: {
-      ready: () => {
-        MathJax.startup.defaultReady();
-      }
-    },
-    loader: {load: ['[tex]/ams']}
-  };
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+    displayMath: [['$$', '$$'], ['\\[','\\]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
 </script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
 
