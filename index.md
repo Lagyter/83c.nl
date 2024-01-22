@@ -1,5 +1,5 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<link rel="icon" href="favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 
 Trans rights are human rights! niko83c
 
