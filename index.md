@@ -1,3 +1,9 @@
+---
+title: Home
+layout: default
+permalink: /
+---
+
 <script>
 MathJax = {
   tex: {
@@ -22,13 +28,6 @@ This is when I use &#36 in in-line text: $f$ is injective.
 
 This is when I use &#36&#36 in in-line text: $$f$$ is injective.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
 This is when I use \\[ in in-line text: \[f\] is injective.
 
