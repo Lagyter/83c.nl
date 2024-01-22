@@ -3,3 +3,12 @@
 Trans rights are human rights! niko83c
 
 $$ \pi_1(X_1 \times X_2, (x_1,x_2)) \cong \pi_1(X_1,x_1) \times \pi_1(X_2,x_2) $$
+
+\begin{equation} a^2 + b^2 = c^2 \end{equation}
+
+\begin{align*}
+3x - 2y &= 5 \\
+2x + 3y &= 10
+\end{align*}
+
+\( \pi = \frac1{\frac1\pi} \)
