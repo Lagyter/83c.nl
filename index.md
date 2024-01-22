@@ -1,12 +1,21 @@
 <script>
-  MathJax = {
+  window.MathJax = {
     tex: {
       inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$'], ['\[', '\]']]
-    }
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    },
+    startup: {
+      ready: () => {
+        console.log('MathJax is ready');
+        MathJax.startup.defaultReady();
+      }
+    },
+    loader: {load: ['[tex]/ams']}
   };
 </script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -22,6 +31,10 @@ This is when I use \\\[ in in-line text: \[f\] is injective.
 $f$
 
 $$f$$
+
+\[f\]
+
+The following is in plain-text square brackets: [What is life?] Why does [life](laifu.html) exist? Why does \[existence](existence.html) live?
 
 \[f\]
 
