@@ -27,6 +27,16 @@ Testing preview $1 + 2 = 4$
   \\{\pi \cdot e, \pi + e\\} \cap (\mathbb R \setminus \mathbb Q) \ne \emptyset  
 \]
 
+\[
+  sdfc
+\]
+
+$$
+\{1,2,3\}
+$$
+
+$\{3,5,8\}$
+
 
 $$
 \pi_1(X_1 \times X_2, (x_1,x_2)) \cong \pi_1(X_1,x_1) \times \pi_1(X_2,x_2)
