@@ -13,27 +13,20 @@
 
 Trans rights are human rights! niko83c
 
-Testing preview $1 + 2 = 4$
+This is when I use \$ in in-line text: $f$ is injective.
 
-\[
-  \\{\pi \cdot e, \pi + e\\} \cap (\mathbb R \setminus \mathbb Q) \ne \emptyset  
-\]
+This is when I use \$\$ in in-line text: $$f$$ is injective.
 
-\[
-  sdfc
-\]
+This is when I use \\\[ in in-line text: \[f\] is injective.
 
-$$
-\{1,2,3\}
-$$
+$f$
 
-This is definitely $$\{1,2,3\}$$ some inline text?
+$$f$$
 
-But how do I have actual inline $\{\text{in},\text{line}\}$ text??
-
-$\{3,5,8\}$
+\[f\]
 
 
+### Some things
 $$
 \pi_1(X_1 \times X_2, (x_1,x_2)) \cong \pi_1(X_1,x_1) \times \pi_1(X_2,x_2)
 $$
