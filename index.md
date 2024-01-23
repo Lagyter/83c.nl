@@ -7,8 +7,12 @@ permalink: /
 <script>
 MathJax = {
   tex: {
-    inlineMath: [['$', '$']]
-    displayMath: [['\[','\]'], ['\\(', '\\)']]
+    inlineMath: [['$', '$']],
+    displayMath: [['\[','\]'], ['\\(', '\\)']],
+    macros: {
+        Tr: "{\\mathrm{Tr}}",
+        rk: "{\\mathrm{rk}}"
+    }
   },
   svg: {
     fontCache: 'global'
@@ -20,19 +24,9 @@ MathJax = {
 </script>
 
 
+
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
 Trans rights are human rights! niko83c
 
-This is when I use &#36 in in-line text: $f$ is injective.
-
-This is when I use &#36&#36 in in-line text: $$f$$ is injective.
-
-
-This is when I use \\[ in in-line text: \[f\] is injective.
-
-$a$
-
-$$b$$
-
-\[c\]
+Let $M$ be a real $17 \times 17$ matrix of rang $\rk(M) = 10$ and trace $\Tr(M) = 0$ for which $M^3 = M$. Determine the characteristic polynomial of $M$.
