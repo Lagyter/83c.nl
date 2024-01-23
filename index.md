@@ -44,3 +44,4 @@ Consider the real matrices
 * Show that $v = (0,1-1)^\top$ is eigenvector of $A$.
 
 Given is a triangle $\triangle ABC$ for which $a = \pi$, $b = e$ and $\sin \alpha = \frac12$. Prove that $[ABC] \in \mathbb Q$.
+[*Hint:* do not attempt this problem.]
