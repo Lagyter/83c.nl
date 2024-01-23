@@ -33,12 +33,12 @@ Let $M$ be a real $17 \times 17$ matrix of rank $\rk(M) = 10$ and trace $\Tr(M) 
 
 Consider the real matrices
 \[
-  A = \begin{pmatrix} 3 & 1 & 1 \\
-                      1 & 2 & 0 \\
+  A = \begin{pmatrix} 3 & 1 & 1 \\\
+                      1 & 2 & 0 \\\
                       -2 & -1 & 1
       \end{pmatrix}
     \quad
-  B = \begin{pmatrix} 8 & 4 \\ -9 -4 \end{pmatrix}.
+  B = \begin{pmatrix} 8 & 4 \\\ -9 -4 \end{pmatrix}.
 \]
 
 * Show that $v = (0,1-1)^\top$ is eigenvector of $A$.
