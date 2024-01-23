@@ -45,3 +45,10 @@ Consider the real matrices
 
 Given is a triangle $\triangle ABC$ for which $a = \pi$, $b = e$ and $\sin \alpha = \frac12$. Prove that $[ABC] \in \mathbb Q$.
 [*Hint:* do not attempt this problem.]
+
+[This should not be display mode]
+
+
+[
+  This should not be either
+]
