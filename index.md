@@ -30,3 +30,5 @@ MathJax = {
 Trans rights are human rights! niko83c
 
 Let $M$ be a real $17 \times 17$ matrix of rang $\rk(M) = 10$ and trace $\Tr(M) = 0$ for which $M^3 = M$. Determine the characteristic polynomial of $M$.
+
+VSC
