@@ -48,7 +48,6 @@ Given is a triangle $\triangle ABC$ for which $a = \pi$, $b = e$ and $\sin \alph
 
 [This should not be display mode]
 
-
 [
   This should not be either
 ]
